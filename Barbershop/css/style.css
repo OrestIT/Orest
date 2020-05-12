@@ -1,0 +1,1555 @@
+body{
+	margin: 0;/*довжина відстань*/
+	padding: 0;/*ширина відстань*/
+
+	font-size: 14px;/*Розмір шрифта*/
+	line-height: 24px;/*Висота рядка*/
+	color: #ffffff;
+	font-weight: bold;/*Жирність тексту*/
+	font-family: "PT Sans Narrow", Arial,sans-serif;
+	text-transform: uppercase;
+
+	background-color: #000000;
+	background-image: url("D:/Website/Orest/Barbershop/img/bg.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	
+}
+
+
+.inner-page-catalog{
+	color: #000000;
+	background-color: #f9f6f3;
+	background-image: url("D:/Website/Orest/Barbershop/img/bg.jpg");
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+.inner-page-catalog-inner{
+	color: #000000;
+	background-color: #f9f6f3;
+	background-image: url("D:/Website/Orest/Barbershop/img/pattrenlight.jpg");
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+.filters,
+.nav-inner,
+.care-white{
+	color: #ffffff;
+}
+
+.breadcrambs,
+.items-include{
+	list-style: none;
+}
+
+
+
+a{
+
+	text-decoration: none;/*без підчоркувань*/
+
+}
+fieldset{
+	border: none;
+}
+
+.button{
+	display: inline-block;
+	padding: 10px 30px;
+
+
+	font: inherit;/*віднаслідуй всі параметри на ссилки і все решту*/
+
+	text-align: center;
+	color: #ffffff;
+	vertical-align: middle;/*верівнюання надписі на ссилках і кнопках по середині*/
+	text-transform: uppercase;
+
+	background-color: #000000;
+	border: none;
+	margin-right: 17px;
+}
+
+.button:hover,
+.button:focus,
+.button:active{
+	background-color: #663d15;
+}
+
+.button-disabled,
+.button:disabled{
+
+	cursor: default;
+	opacity: 0.5;
+	background-color: #000000;
+
+}
+
+.gallery-content{
+	height: 164px;
+	margin: 0;
+}
+
+.gallery-content img{
+	width: 286px;
+	height: 164px;
+
+}
+
+.main-navigation{
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.site-navigation,
+.user-navigation{
+	list-style: none;/*заберає маркери для списка*/
+	display: block;
+	padding: 25px 20px;
+
+	vertical-align: middle;
+	color: #ffffff;
+}
+
+.site-navigation a,
+.user-navigation a{
+	color: #ffffff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus{
+	background-color: #242424;
+
+}
+
+.features-list{
+	list-style: none;
+}
+
+.features-item{
+	text-align: center;/*Вирівнювання по чентру*/
+}
+
+.features-item h3{
+	position: relative;
+
+	margin: 0;
+	margin-bottom: 60px;
+
+
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.features-item h3::after{
+	content: "";
+	position: absolute;
+	bottom: -30px;
+	left: 50%;
+
+	width: 20px;
+	height: 20px;
+	margin-left: -10px;
+	background-color: #ffffff;
+
+	transform: rotate(45deg);
+}
+
+.feature-item p{
+	margin: 0px 10px;
+}
+
+
+.index-columns{
+	color: #000000;
+
+	background-color: #f9f5f2;
+	background-image: url("D:/Website/Orest/Barbershop/img/pattrenlight.jpg");
+	background-image: url("D:/Website/Orest/Barbershop/img/line.png");
+	background-position: center, 0 0;
+	background-repeat: no-repeat,repeat;
+}
+
+.index-colums h2{
+	margin: 0;
+	margin-bottom: 25px;
+
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.news-list{
+	margin: 0;
+	margin-bottom: 25px;
+	padding: 0;
+
+	list-style: none;
+}
+
+
+.news-item time{/*не діє текст трансформ описаний вище для часу бо тут він з малої літери*/
+	text-transform: none;
+	margin-bottom: 25px;
+}
+
+.gallery-content{
+	background-color: #cccccc;
+	border: 7px solid #ffffff;/*border задає кордони блоку*/
+}
+
+.appointment-item input{
+	font: inherit;
+
+	background-color: transparent;/*задаєм прозорий колір*/
+	border: 2px solid #000000;
+}
+
+.appointment-item input:focus{
+	border-color: #663d15;
+	outline: none;
+}
+
+.main-footer{
+	color: #ffffff;
+
+	background-color: #212121;
+	background-image: url("D:/Website/Orest/Barbershop/img/pattern-dark.jpg");
+
+	background-position: 0 0;
+	background-repeat: repeat;
+
+}
+
+.footer-contacts a{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus{
+	text-decoration: none;
+}
+
+.footer-social{
+	text-align: center;
+}
+
+.footer-social ul{
+	list-style: none;
+}
+
+.social-button{
+	color: #ffffff;
+}
+
+.footer-copyright{
+	text-align: center;
+}
+
+.footer-copyright .button:hover
+.footer-copyright .button:focus{
+	color: #000000;
+
+	background-color: #ffffff;
+}
+
+.modal h2{
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"]{
+	font: inherit;
+	color: #000000;
+	text-transform: uppercase;
+
+	background-color: #f9f6f3;
+	border: 2px solid #000000; 
+}
+
+.restore{
+	color: #000000;
+	text-decoration: underline;
+
+}
+
+.restore:hover,
+.restore:focus{
+	text-decoration: none;
+}
+
+.page-title{
+	font-size: 30px;
+	line-height: 42px;
+
+	font-weight: bold;
+}
+
+.nav-inner ul{
+	list-style: none;
+}
+
+.breadcrumbs{
+	font-size: 14px;
+	line-height: 20px;
+
+
+	font-weight: bold;
+}
+
+.breadcrumbs a{
+	color: #000000;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus{
+	text-decoration: underline;
+}
+
+.breadcrumbs-current a{
+	color: #aba9a7;
+}
+
+.filter ul{
+	list-style: none;
+}
+
+.owner{
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.owner-select{
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.catalog ul{
+	list-style: none;
+}
+
+.catalog-category{
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	text-transform: capitalize;
+}
+
+.catalog-item-title{
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.price-p b{
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+
+	background-color: #e5e5e5;
+}
+
+.filter-input:hover + label,
+.filter-inpur:focus + label{
+	color: #663d15;
+}
+
+.filter-input:disabled + label{
+	color: #000000;
+
+	opacity:  0.5;
+}
+
+.catalog-item{
+	background-color: #f8f8f8;
+
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.catalog-item{
+
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.pagination-item a{
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active{
+	color: #663d15;
+
+}
+
+.pagination-item-current a{
+	color: #000000;
+
+	background-color: #ffffff;
+}
+
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active{
+	color: #000000;
+
+	background-color: #ffffff;
+
+}
+
+.services{
+
+	list-style: none;
+}
+
+.Price-list{
+
+	font-size: 30px;
+	line-height: 42px;
+
+}
+
+.breadcrambs-current{
+	color: #aba9a7;
+}
+
+.strong-man{
+	display: flex;
+	align-items: center;
+	font-size: 48px;
+	line-height: 48px;
+	margin-top: 55px;
+	margin-bottom: 65px;
+
+}
+
+.strong-man::before
+{
+	content: "";
+	flex-grow: 1;
+	flex-shrink: 0;
+	margin-right: 25px;
+
+	width: 50px;
+	height: 2px;
+	top: 20px;
+	left: -75px;
+
+
+	background: #000000;
+}
+
+.strong-man::after{
+
+	content: "";
+	flex-grow: 1;
+	flex-shrink: 0;
+	margin-left: 25px;
+
+	width: 50px;
+	height: 2px;
+	top: 20px;
+	right: -75px;
+
+
+	background: #000000;
+
+}
+
+.Using-best{
+
+font-size: 24px;
+line-height: 30px;
+
+font-size: bold;
+
+}
+
+.products-list ul{
+	list-style: none;
+}
+
+.Price-list-workers{
+	font-size: 24px;
+	line-height: 30px;
+}
+
+.about-us-us{
+	font-size: 24px;
+	line-height: 30px;
+
+
+}
+.visually-hidden{
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+
+.container ul{
+
+}
+
+.breadcrambs a{
+	color: #000000;
+}
+
+.breadcrambs a:hover,
+.breadcrambs a:focus,
+.breadcrambs a:active
+{
+	color: #663d15;
+}
+
+.parts-ingredients{
+	line-height: 24px;
+	font-size: 30px;
+}
+
+.product-article{
+	color: #d6d4d3;
+}
+
+/*Стилі для сіток*/
+
+html,
+body{
+
+	min-width: 1122px;
+	min-height: 1750px; 
+}
+
+.main-header{
+	margin-bottom: 75px;
+	
+}
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+
+  background-color: transparent;
+}
+
+.main-header-logo {
+  order: 2;
+  width: 368px;
+  height: 153px;
+}
+
+
+
+.main-navigation-wrapper {
+  width: 100%;
+  height: 72px;
+  margin-bottom: 60px;
+  
+  background-color: #000000;
+}
+
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation {
+  width: 620px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 27px;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 25%;
+}
+
+.someimg{
+
+}
+
+.login-link::before{
+	content: "";
+
+	position: absolute;
+	top:17px;
+	left: 1780px;
+	width: 16px;
+	height: 18px;
+
+
+	background-image: url("D:/Website/Orest/Barbershop/img/login.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+
+	opacity: 0.3;
+	
+}
+
+.login-link:hover::before,
+.login-link:focus::before,
+.login-link:active::before{
+	opacity: 1;
+}
+
+
+.user-navigation{
+	margin-left: auto;
+}
+
+.user-navigation {
+  width: 140px;
+
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-navigation-wrapper .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.user-navigation .login-link{
+	
+	padding-left: 50px;
+}
+
+.user-navigation{
+	max-width: 140px;
+
+
+
+	display: flex;
+	flex-direction: column;
+	margin-top: -25px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+
+.features-item {
+  width: 300px;
+  text-align: center;
+}
+
+
+.index-columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+  margin-bottom: 35px;
+}
+
+.news{
+	width: 380px;
+
+
+	min-height: 315px;
+}
+
+.gallery{
+
+	width: 300px;
+
+	min-height: 315px;
+
+}
+
+.contacts{
+	width: 380px;
+
+	min-height: 295px;
+}
+
+.appointment{
+	width: 300px;
+
+	min-height: 340px;
+}
+
+.main-footer{
+	padding: 60px 0;
+	margin-top: 65px;
+
+	
+	min-height: 180px;
+}
+
+.main-footer .container{
+	display: flex;
+}
+
+.footer-contacts{
+	width: 320px;
+	margin: 0;
+	margin-right: 80px;
+
+	min-height: 100px; 
+}
+
+.footer-social{
+	min-height: 100px;
+}
+.footer-contacts{
+	width: 320px;
+	margin: 0;
+
+	min-height: 100px;
+}
+
+.footer-copyright{
+	width: 150px;
+	margin: 0;
+
+	min-height: 100px;
+	margin-left: 260px;
+}
+
+
+
+.services{
+	margin: 0;
+	padding: 0;
+	min-height: 20px;
+}
+
+.inner-page-catalog .main-header,
+.inner-page-catalog-inner .main-header{
+	margin-bottom: 50px;
+
+	background-color: #000000;
+
+	min-height: 70px;
+
+	background-color: transparent;
+}
+
+.inner-page-catalog .main-navigation,
+.inner-page-catalog-inner .main-navigation{
+
+	align-items: flex-start;
+	flex-direction: row;
+
+	min-height: 70px;
+}
+
+.inner-page-catalog .main-header-logo,
+.inner-page-catalog-inner .main-header-logo{
+	display: flex;
+	order: 0;
+	background-color: #000000;
+	width: 111px;
+	height: 26px;
+	padding: 23px 20px;/*зверху справа*/
+	padding-left:148px;
+
+}
+
+
+.inner-page-catalog .user-navigation,
+.inner-page-catalog-inner .user-navigation{
+	margin-left: auto;
+}
+
+.page-title{
+	margin: 0;
+	margin-bottom: 15px;
+	padding: 0;
+
+	min-height: 42px;
+}
+
+.site-navigation-current a:not([href]){
+	background-color: #000000;
+}
+
+
+.breadcrumbs{
+	padding: 0;
+	margin: 0;
+	margin-bottom: 50px;
+
+
+	min-height: 24px;
+}
+
+.filters{
+	width: 180px;
+
+	min-height: 687px;
+}
+
+.owner-select{
+	margin: 0;
+	padding: 0;
+}
+
+.catalog{
+	width: 700px;
+}
+
+
+.catalog-columns{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.catalog-item{
+	width: 220px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+
+	/*background-color: transparent;
+	box-shadow: inset 0 0 0 2px purple;*/
+}
+
+.catalog-list{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;/*дозволяє перенос на нову строчку*/
+	padding: 0;
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.catalog-item:nth-child(3n){
+	margin-right: 0;
+}
+
+.pagination-list{
+	padding: 0;
+	margin: 0;
+
+
+}
+
+.inner-page .main-footer{
+	margin-top: 45px;
+}
+
+
+.wrapper{
+	display: flex;
+}
+
+
+.products-price{
+	width: 460px;
+	margin: 0 auto;
+	padding: 0 10px;
+	margin-left: 60px;
+
+}
+
+
+
+.cream-list{
+	margin: 0;
+	padding: 0;
+}
+
+.table-price{
+	width: 410px;
+}
+
+.temp{
+
+
+}
+
+.about-us{
+	margin-top: 60px;
+}
+
+
+.discr{
+	
+	margin-top: 122px;
+}
+
+.breadcrambs,
+.product-photo-preview,
+.items-include
+{
+	margin: 0;
+	padding: 0;
+}
+
+.product-photos{
+	display: flex;
+	flex-direction: column;
+	width: 460px;
+	margin-bottom: 20px;
+
+}
+
+.wrapper-photo{
+	display: flex;
+	flex-direction: row;
+	width: 460px;
+	flex-wrap: nowrap;
+}
+
+.img-item{
+	padding-right: 10px;
+}
+
+.item-wrapper{
+	display: flex;
+}
+
+.discr-product{
+	width: 390px;
+	margin: 0 auto;
+	padding: 0 10px;
+	margin-left: 60px;
+
+}
+
+.sc-wrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+.product-price{
+	margin-top: 40px;
+	margin-left: 70px;
+}
+
+.parts-ingredients{
+	margin-left: 70px;
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+
+.items-include{
+	margin-left: 70px;
+}
+
+.wrapper-tmp{
+	width: 390px;
+	display: flex;
+	flex-direction: row;
+}
+
+.product-availability{
+	margin-right: 120px;
+}
+
+.gallery-container{
+	position: relative;
+	height: 260px;
+}
+
+.gallery-button{
+	box-sizing: border-box;
+	position: absolute;
+
+	bottom: 0;
+	width: 140px;
+	margin: 0;
+}
+
+.gallery-button-back{
+	left: 0;
+}
+
+.gallery-button-next{
+	right: 0;
+}
+
+.appointment-info{
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.appointment-form{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.appointment-item{
+	width: 110px;
+	margin-bottom: 10px
+}
+
+.appointment .button{
+	display: block;
+	width: 380px;
+
+	margin: 0;
+	margin-top: 10px;
+}
+
+.social-button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 43px;
+	height: 43px;
+
+	background-color: #000000;
+}
+
+.footer-social ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 141px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.social-button:hover,
+.social-button:focus{
+	background-color: #ffffff;
+}
+
+.social-button:hover path,
+.social-button:focus path{
+	fill: #000000;
+}
+
+.footer-social b{
+	display: block;
+	margin-bottom: 15px;
+}
+
+.footer-copyright b{
+	display: block;
+	margin-bottom: 15px;
+}
+.footer-copyright .button{
+	display: block;
+	margin-right: 0;
+}
+
+
+.site-navigation-current a:not([href]){
+	background-color: #000000;
+}
+
+
+
+.site-navigation-current{
+	background-color: grey;
+}
+
+.nav-info2{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 199px;
+	height: 90px;
+}
+
+.services{
+	display: flex;
+	flex-direction: row;
+	width: 220px;
+}
+
+.main-href{
+	margin-right: 40px;
+}
+
+.nav-info2 h1{
+	position: relative;
+
+	margin: 0;
+
+	font-size: 30px;
+	line-height: 42px;
+}
+
+.nav-info2 h1::after{
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 93px;
+	bottom: -18px;
+
+	width: 12px;
+	height: 12px;
+	margin-left: -10px;
+	background-color: #000000;
+
+	transform: rotate(45deg);
+}
+
+
+.inner-content {
+  margin-bottom: 75px;
+}
+
+.inner-content h2 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.inner-content h3 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.inner-content h2 + h3 {
+  margin-top: 30px;
+}
+
+.inner-content p {
+  margin: 14px 0;
+}
+
+.inner-content table {
+  border-collapse: collapse;
+}
+
+.inner-content td{
+	padding: 10px 15px;
+
+	border: 2px solid #000000;
+
+}
+
+.custom-list-1{
+	margin: 14px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.custom-list-1 li{
+	position: relative;
+	margin-bottom: 15px;
+	padding-left: 20px;
+}
+
+.custom-list-1 li::before{
+	content: "";
+
+	position: absolute;
+
+	top:8px;
+	left:8px;
+
+	width: 8px;
+	height: 8px;
+
+	transform: rotate(45deg);
+
+	background-color: #000000;
+
+}
+
+.custom-table-1{
+	width: 100%;
+}
+
+
+.custom-table-1 td{
+	width: 50%;
+}
+
+.custom-table-1 td:last-child{
+	text-align: center;
+}
+
+.inner-columns{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 60px 0;
+	width: 960px;
+}
+
+.inner-left-column,
+.inner-right-column{
+	width: 460px;
+}
+
+.inner-left-column *:first-child,
+.inner-right-column *:first-child{
+	margin-top: 0;
+}
+
+.inner-left-column *:last-child,
+.inner-right-column *:last-child{
+	margin-bottom: 0;
+}
+
+.inner-left-column{
+
+}
+
+.inner-right-column{
+	margin-bottom: 50px;
+
+}
+
+.catalog-item{
+	text-align: center;
+}
+
+
+.inner-columns > h2:first-child{
+	width: 460px;
+	margin-top: 0;
+	margin-right: 460px;
+	margin-right: calc(100%-460px);
+}
+
+.some-text{
+	display: inline-block;
+	margin-left: 300px;
+	margin-top: 400px;
+}
+
+.breadcrumbs-catalog{
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+	width: 380px;
+}
+
+.site-li{
+	position: relative;
+	margin-right: 30px;
+}
+
+.site-li::after{
+	content: "";
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	background-color: #ffffff;
+
+	top: 8px;
+	left: 80px;
+
+	transform: rotate(45deg);
+
+}
+
+.pagination-list{
+	display: flex;
+	flex-direction: row;
+}
+
+.pagination-item{
+	margin-right: 35px;
+}
+
+.modal-login{
+	top: 120px;
+	left: 50%;
+
+	margin-left: -240px;
+	width: 300px;
+	padding: 50px 80px;
+}
+
+.modal{
+	position: fixed;
+	color: #000000;
+
+	display: none;
+	background-color: #f8f3f0;
+	background-image: url("D:/Website/Orest/Barbershop/img/pattrenlight.jpg")
+	background-position: 0 0;
+	background-repeat: repeat;
+
+	box-shadow: 0px 30px 50px rgba(0,0,0,0.7);
+}
+.modal-buy-main{
+	position: fixed;
+
+	background-color: #f8f3f0;
+	display: none;
+	background-image: url("D:/Website/Orest/Barbershop/img/pattrenlight.jpg")
+	background-position: 0 0;
+	background-repeat: repeat;
+
+	box-shadow: 0px 30px 50px rgba(0,0,0,0.7);
+}
+
+.modal-buy-main-second{
+	width: 300px;
+	height: 350px;
+	top: 120px;
+	left: 50%;
+
+	margin-left: -240px;
+	width: 300px;
+	padding: 50px 80px;
+
+}
+
+.modal-close{
+	position: absolute;
+	top: 0;
+	right: -50px;
+
+	width: 22px;
+	height: 22px;
+
+	font-size: 0;
+	background: none;
+	border: 0;
+
+	cursor: pointer;
+}
+
+.modal-close::before,
+.modal-close::after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 2px;
+
+	width: 19px;
+	height: 3px;
+
+	background-color: #d0d0d0;
+}
+
+
+.modal-close::before{
+	transform: rotate(45deg);
+}
+.modal-close::after{
+	transform: rotate(-45deg);
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"]{
+	box-sizing: border-box;
+	padding: 10px 15px;
+	padding-right: 40px
+
+	font: inherit;
+	color: #000000;
+	width: 300px;
+
+	border: 2px solid #000000;
+}
+
+
+.personal-cabinet{
+	text-align: center;
+}
+
+.login-icon-user{
+	background-image: url("D:/Website/Orest/Barbershop/img/user.svg");
+	background-position: 270px center;
+	background-repeat: no-repeat;
+}
+
+.login-icon-password{
+	background-image: url("D:/Website/Orest/Barbershop/img/lock.svg");
+	background-position: 270px center;
+	background-repeat: no-repeat;
+}
+
+.login-help{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 15px 0;
+}
+
+.login-checkbox{
+	position: relative;
+
+	padding-left: 30px;
+	cursor: pointer;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus{
+	color: #663d15;
+}
+
+.login-checkbox input[type="checkbox"] + .checkbox-indicator{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 17px;
+	height: 17px;
+
+	border: 2px solid #000000;
+}
+
+.login-checkbox input[type="checkbox"]:focus + .checkbox-indicator{
+	border-color: #663d15;
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+}
+
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after{
+	content: "";
+	position: absolute;
+	top: 8px;
+	left: 1px;
+
+	width: 15px;
+	height: 2px;
+
+	background-color: #000000;
+
+}
+
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before{
+	transform: rotate(45deg);
+}
+.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after{
+	transform: rotate(-45deg);
+}
+
+.login-form .button{
+	width: 100%;
+}
+
+.modal-map{
+	top: 50%;
+	left: 50%;
+
+	width: 766px;
+	height: 561px;
+	margin-top: -280px;
+	margin-left: -390px;
+
+	border: 7px solid white;
+}
+
+.modal-map p{
+	margin: 0;
+}
+
+
+@keyframes bounce{
+	0%{transform: translateY(-2000px);}
+	70%{transform: translateY(30px);)}
+	90%{transform: (-10px);}
+	100%{transform: translateY(0);}
+} 
+
+@keyframes shakeerror{
+
+	10%,30%,50%,70%,90%{transform: translateX(-10px);}
+	10%,10%,10%,10%{transform: translateX(10px);}
+}
+
+.modal-error{
+	animation-name: shakeerror;
+	animation-duration: 0.6s;	
+}
+
+.modal-show{
+	display: block;
+	animation-name: bounce;
+	animation-duration: 0.9s;
+}
+
+
+.modal-buy input{
+	border: 3px solid #000000;
+	width: 260px;
+	height:40px;
+	text-align: center;
+}
+.modal-modal{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.modal-item {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.button-buy{
+	width: 260px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.modal-close-buy{
+	position: absolute;
+
+	width: 22px;
+	height: 22px;
+
+	top: 0px;
+	right: -50px;
+
+	background: none;
+	border: 0;
+	font-size: 0;
+}
+
+.modal-close-buy::before,
+.modal-close-buy::after{
+	content: "";
+	position: absolute;
+
+	top: 10px;
+	left: 2px;
+
+	width: 19px;
+	height: 3px;
+
+	background-color: #d0d0d0;
+}
+
+.modal-close-buy::before{
+	transform: rotate(45deg);
+}
+
+.modal-close-buy::after{
+	transform: rotate(-45deg);
+}

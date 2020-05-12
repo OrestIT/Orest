@@ -1,0 +1,1075 @@
+body{
+	margin: 0;
+	padding: 0;
+
+	font-size: 14px;
+	line-height: 26px;
+	color: #333333;
+	font-weight: normal;
+	font-family: "PT Sans", Regular,sans-serif;
+	text-transform: uppercase;
+	background-color: #ffffff;
+	
+}
+
+a{
+	text-decoration: none;
+
+
+}
+
+
+fieldset {
+   border: none;/*Заберає рамки в філдсеті*/
+}
+
+.button,
+.inner-button-2,
+.inner-button-3{
+	font:inherit;
+
+	text-align: center;
+	color: #ffffff;
+	vertical-align: middle;
+	text-transform: uppercase;
+
+	background-color: #766357;
+
+	border: none;
+
+	width: 143px;
+	height: 27px;
+}
+
+.inner-button{
+	font:inherit;
+
+	text-align: center;
+	color: #ffffff;
+	vertical-align: middle;
+	text-transform: uppercase;
+
+	background-color: #766357;
+
+	border: none;
+	width: 143px;
+	height: 27px;
+	margin-top: -30px;
+
+}
+
+.button-serch{
+
+	text-align: center;
+	color: #ffffff;
+	vertical-align: middle;
+	text-transform: uppercase;
+
+	background-color: #81b3d2;
+
+	border: none;
+}
+
+.site-navigation{
+	list-style: none;
+}
+.site-navigation a{
+
+	color: #000000;
+
+}
+
+
+.site-navigation a:hover,
+.site-navigation a:focus{
+	background-color: #6d4d4f;
+}
+.main-navigation{
+	font-weight: bold;
+	color: #000000;
+}
+
+.slogan{
+	font-size: 21px;
+	line-height: 26px;
+	color: #000000;
+	font-weight: bold;
+}
+.wrapper-photo-one{
+	background-color: #81b3d2;
+	color: #ffffff;
+	background-image:url("D:/Website/Orest/Sedona/img/blue-back.jpg");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.real-city{
+	font-weight: bold;
+}
+
+.Sedona-features{
+	list-style: none;
+
+}
+
+.services-sedona{
+	color: #000000;
+	font-weight: bold;
+}
+
+.wrapper-photo-four{
+	background-color: #81b3d2;
+	color: #ffffff;
+	background-image:url("D:/Website/Orest/Sedona/img/blue-back.jpg");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+.sedona-canion{
+	font-weight: bold;
+}
+
+.description-2{
+	background-color: #eeeeee;
+	background-image:url("D:/Website/Orest/Sedona/img/gray-back.jpg");
+}
+
+.interesting{
+	font-size: 24px;
+	line-height: 26px;
+	color: #000000;
+	font-weight: bold; 
+}
+
+.peoples{
+	color: #000000;
+	font-weight: bold;
+}
+
+.peoples-2{
+	color: #000000;
+	font-weight: bold;
+}
+
+
+
+.search-form input[type="date"],
+.search-form input[type="number"]{
+ 	
+ 	color: #000000;
+ 	text-transform: uppercase;
+
+ 	font-weight: bold;
+ 	background-color: #f2f2f2;
+ 	border: none;
+
+}
+
+.social{
+ 	text-align: center;
+	background-color: #81b3d2;
+}
+
+.visit{
+	text-align: left;
+	font-size: 16px;
+	line-height: 26px;
+	color: #000000;
+	font-weight: bold;
+}
+
+
+
+.visual-hiden{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.serch-filtr-sedona{
+	color: #ffffff;
+	background-image: url("D:/Website/Orest/Sedona/img/filterback.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.img-footer{
+  	background-color: #81b3d2;
+}
+
+.filter-arr{
+	list-style: none;
+
+}
+.stars-four{
+
+	color: #81b3d2;
+}
+
+.result-filter ul{
+	list-style: none;
+}
+
+.reserch{
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.sorting{
+	font-size: 12px;
+	line-height: 18px;
+	font-size: bold;
+}
+
+.filters{
+	font-size: 12px;
+	line-height: 18px;
+	text-decoration: underline;
+
+	color :#cacaca;
+}
+
+.filters-active{
+	font-size: 12px;
+	line-height: 18px;
+	color: #81b3d2;
+}
+
+.triangle-img ul{
+	list-style: none;
+	color: #cacaca;
+}
+
+.block-results{
+	list-style: none;
+
+}
+
+.block-results a{
+	font: inherit;
+
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #81b3d2;
+	vertical-align: center;
+	border: none;
+}
+.member{
+	font-size: 21px;
+	line-height: 26px;
+
+	font-weight: bold;
+
+	color: #000000;
+}
+
+.p-hotel,
+.p-hotel2{
+	font-size: 14px;
+	line-height: 21px;
+
+	color: #333333;
+}
+
+.button{
+	font: inherit;
+
+	color: #ffffff;
+	background-color: #766357;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: center;
+	border: none;
+
+}
+
+.rating,
+.rating2{
+	font-size: 14px;
+	line-height: 21px;
+
+	color: #666666;
+
+	text-align: right;
+}
+
+.rating3{
+	font-size: 14px;
+	line-height: 21px;
+
+	color: #666666;
+}
+
+.block-results ul{
+	list-style: none;
+}
+
+.social-sedona ul{
+	list-style: none;
+}
+
+.social:hover,
+.social:focus{
+	background-color: #6d4d4f;
+}
+
+html,body{
+	min-width: 1200px;
+	min-height: 2762px;
+}
+
+.main-header{
+	margin-bottom: 16px;
+}
+
+.main-navigation{
+	display: flex;
+	flex-direction: row;
+	padding-right: 135px;
+
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 40px;
+}
+
+
+.site-navigation{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 15px;
+	margin-bottom: -40px;
+}
+
+.site-info{
+	margin-left: 100px;
+}
+
+.sedona-img{
+	margin-bottom: 50px;
+}
+
+.vrapper-slogan{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.benefits-1{
+	display: flex;
+	flex-direction: row;
+}
+
+.wrapper-photo-one{
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	height: 256px;
+	margin-bottom: 60px;
+	align-items: center;
+	text-align: center;
+}
+
+.wrapper-photo-two{
+	display: flex;
+	width: 800px;
+	height: 256px;
+	margin-top: -14px;
+	margin-bottom: 60px;
+}
+
+.description-1{
+	display: flex;
+	flex-direction: row;
+	width: 1200px;
+}
+
+.Sedona-features{
+	margin: 0;
+	padding: 0;
+}
+
+.Sedona-features .container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.Sedona-features{
+	text-align: center;
+	margin-top: 56px;
+	margin-bottom: 75px;
+}
+
+.sedona-souvenirs{
+	margin-top: -7px;
+}
+
+.sedona-home{
+	margin-left: 63px;
+	margin-right: 100px
+
+}
+
+.sedona-food{
+	margin-right: 100px;
+}
+
+.sedona-souvenirs{
+	margin-right: 50px;
+}
+
+.wrapper-photo-three{
+	width: 800px;
+}
+
+.benefits-2{
+	display: flex;
+	flex-direction: row;
+}
+
+.wrapper-photo-four{
+	width: 400px;
+	height: 256px;
+	margin-top: 14px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.description-2{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 80px;
+	padding-right: 60px;
+	text-align: center;
+	margin-top: -25px;
+	margin-bottom: 50px;
+}
+
+
+.wrapper-text{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.left-column{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 50px;
+}
+
+.right-column{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-flow: column wrap;
+	padding-left: 170px;
+	margin-top: -205px;
+}
+
+.peoples{
+	padding-top: 60px;
+	padding-bottom: 35px;
+}
+
+.peoples-2{
+	padding-bottom: 35px;
+}
+
+.lebel-old{
+	padding-bottom: 60px;
+}
+
+.calendar-interactive{
+	margin-top: -50px;
+	margin-left: 300px;
+}
+
+.date-ar{
+	width: 347px;
+	height: 28px;
+	margin-left: -29px;
+
+}
+
+.date-dep{
+	width: 347px;
+	height: 28px;
+	margin-left: -19px;
+	margin-top: 25px;
+
+}
+
+.input-peoples{
+	width: 118px;
+	height: 18px;
+	margin-right: 40px;
+	margin-left: -19px;
+	margin-top: 16px;
+}
+
+.children{
+	width: 118px;
+	height: 18px;
+	margin-left: 30px;
+}
+
+.button-serch{
+	margin-top: 54px;
+	margin-left: 60px;
+	width: 460px;
+	height: 59px;
+}
+
+.button{
+	width: 567px;
+	height: 68px;
+
+}
+
+.wrapper-footer{
+	display: flex;
+	width: 1056px;
+}
+
+.visit{
+margin-top: 48px;
+margin-left: 120px;
+margin-right: 250px;
+
+}
+
+.social-sedona-social{
+	width: 150px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	margin-top: 27px;
+	margin-bottom: 36px;
+	justify-content: space-between;
+	margin-right: 220px;
+}
+
+.webhtml{
+	display: flex;
+	flex-direction: row;
+	margin-top : 39px;
+	width: 241px;
+	margin-right: 93px;
+}
+
+.wisitby{
+	width: 100px;
+	margin-right: 10px;
+	margin-top: 5px;
+
+}
+
+.inner-body{
+	min-width: 1200px;
+	min-height: 933px;
+}
+
+.filter-arr{
+	margin: 0;
+	padding: 0;
+}
+
+.filter-arr-second{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.serch-filtr-sedona{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 1200px;
+	height: 220px;
+	margin-bottom: 38px;
+}
+
+.first-filter{
+	display: flex;
+	flex-direction: column;
+	margin-right: 100px;
+	margin-left: 55px;
+
+}
+
+.infrastruction{
+	margin-top: 24px;
+	padding-bottom: 18px;
+}
+
+.item-filter{
+	padding-bottom: 13px;
+}
+
+
+.second-filter{
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+.type-home{
+	margin-top: 24px;
+	margin-right: 324px;
+	padding-bottom: 18px;
+}
+
+.Sedona-filter-three{
+
+}
+
+.filter-range-title{
+	margin-bottom: 9px;
+
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 21px;
+}
+
+
+.price-controls{
+	position: relative;
+
+
+	height: 36px;
+	margin-bottom: 20px;
+
+	font-size: 0;
+
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+}
+
+.price-controls::after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	width: 2px;
+	height: 22px;
+
+	background: #ffffff;
+	transform: translate(-50%,-50%);
+
+}
+
+
+.range-controls{
+	position: relative;
+
+	margin-bottom: 32px;
+}
+
+.range-controls .scale{
+	height: 2px;
+
+	background: rgba(255,255,255,0.3);
+}
+
+.range-controls .bar{
+	width: 80%;
+	height: 2px;
+
+	background: #ffffff;
+}
+
+.range-toggle{
+	position: absolute;
+	top: -9px;
+
+	width: 4px;
+	height: 4px;
+
+	background-color: #ababab;
+	border: 8px solid #ffffff;
+	border-radius: 50%;
+	box-shadow: 0 2px 1px 0 rgba(0,1,1,0.3);
+	cursor: pointer;
+}
+
+.range-toggle-min{
+	left: 0;
+}
+
+.range-toggle-max{
+	left: 80%;
+}
+
+.range-toggle:hover{
+	background-color: #1c4f80;
+}
+
+.btn-transpatent{
+	display: block;
+	margin: 0 auto;
+	padding: 6px 35px;
+
+	font-size: 14px;
+	line-height: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn-transpatent:hover{
+	color: #000000;
+	background-color: #ffffff;
+}
+.price-controls .min-price,
+.price-controls .max-price{
+	width: 90px;
+	padding-left: 65px;
+}
+
+.price-controls input{
+	width: 50px;
+	margin: 0;
+
+	color: inherit;
+	font: inherit;
+
+	 background: none;
+	border: none;
+	outline: none;
+}
+
+.price-controls label{
+	display: inline-block;
+
+	font-size: 14px;
+	line-height: 38px;
+	vertical-align: top;
+
+	cursor: pointer;
+}
+
+
+.price{
+	margin-top: 24px;
+}
+
+.result-filter{
+	display: flex;
+	flex-direction: row;
+	width: 1056px;
+}
+
+.triangle-img{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-left: 826px;
+
+	}
+
+.reserch{
+	margin-right: 50px;
+	margin-left: 70px;
+	margin-top: 4px;
+}
+
+.sorting{
+	margin-right: 25px;
+
+}
+
+.filters-sedona-array{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 240px;
+	margin: 0;
+	padding: 0;
+	margin-right: 30px;
+	margin-bottom: 55px;
+}
+.filers-sedona{
+	display: flex;
+	flex-direction: row;
+	margin-top: 0px;
+	justify-content: space-between;
+}
+
+.filters,
+.filters-active{
+	width: 94px;
+	justify-content: space-between;
+}
+
+.triangle-img{
+	margin-left: 450px;
+	margin-top: -3px;
+}
+
+.triangle-logo-up{
+padding-right: 15px;
+}
+
+.block-results{
+	display: flex;
+}
+
+.amara-w{
+	display: flex;
+	flex-direction: column;
+	width: 889px;
+	height: 90px;
+	padding-bottom: 20px;
+	margin-left: 200px;
+	margin-top: -125px;
+}
+
+.amara-img{
+	margin-right: 25px;
+}
+.amara-w2{
+	display: flex;
+	flex-direction: row;
+	width: 300px;
+	margin-bottom: 5px;
+}
+
+.p-hotel{
+	padding-right: 62px;
+}
+
+.amara-w3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 258px;
+	height: 27px;
+	margin-bottom: 200px;
+}
+
+.hrefa,
+.hrefa2,
+.hrefa3{
+	width: 112px;
+	height: 27px;
+	margin-right: 10px;
+	height: 27px;
+}
+
+.stars-four{
+	display: flex;
+	order: 2;
+	margin-left: 790px;
+	margin-top: -300px;
+}
+
+.amara-main{
+	width: 1056px;
+	margin-bottom: 120px;
+}
+
+.rating{
+	display: flex;
+	margin-left: 781px;
+	margin-top: -260px;
+}
+
+.member{
+	margin-bottom: 0px;
+}
+
+.p-hotel{
+	margin-bottom: 0px;
+}
+
+.Desert-main{
+	display: flex;
+	flex-direction: row;
+	width: 1056px;
+	height: 153px;
+	margin-bottom: 60px;
+}
+
+.wrapper-discription-desert{
+	display: flex;
+	flex-direction: column;
+	width: 290px;
+	height: 110px;
+	margin-bottom: 15px;
+	margin-left: 205px;
+	margin-top: -120px;
+}
+
+.inner-wraper-discription-desert{
+	display: flex;
+	flex-direction: row;
+	width: 300px;
+	height: 29px;
+	margin-bottom: 15px;
+
+}
+
+.second-inner-wraper-discription-desert{
+	display: flex;
+	flex-direction: row;
+	width: 258px;
+	height: 27px;
+}
+
+.rating-desert{
+	display: flex;
+	flex-direction: column;
+
+}
+.stars-three{
+	display: flex;
+	margin-left: 1003px;
+	margin-top: -150px;
+}
+
+.rating2{
+	margin-top: -65px;
+}
+
+.triangle-logo-down{
+	background-color: #81b3d2;
+} 
+
+.right-row{
+	display: flex;
+	flex-direction: column;
+}
+
+.Villa-main{
+	display: flex;
+	flex-direction: row;
+	width: 1056px;
+	height: 153px;
+	margin-bottom: 0px;
+}
+
+.wrapper-discription-villa{
+	display: flex;
+	flex-direction: column;
+	width: 286px;
+	height: 113px;
+	margin-left: 205px;
+	margin-top: -120px;
+}
+
+.inner-wrapper-discription-villa{
+	display: flex;
+	flex-direction: row;
+	width: 320px;
+	height: 36px;
+	margin-bottom: 15px;
+}
+
+.second-inner-wraper-discription-villa{
+	display: flex;
+	flex-direction: row;
+	width: 258px;
+	height: 28px;
+}
+
+.p-hotel-inner{
+	padding-right: 21px;
+	margin-top: 12px;
+}
+
+.rating-villa{
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	margin-left: 1000px;
+	margin-top: -130px;
+}
+
+
+.serch-house{
+	background-image: url("D:/Website/Orest/Sedona/img/pattrenlight.jpg");
+	background-repeat: repeat;
+	background-position: 0 0;
+	display: flex;
+	flex-direction: column;
+	width: 576px;
+	margin-left: 312px;
+	height: 396px;
+	margin-bottom: 265px;
+	position: absolute;
+
+}
+.right-column{
+	background-image: url("D:/Website/Orest/Sedona/img/pattrenlight.jpg");
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+
+.wrapper-back{
+	background-image: url("D:/Website/Orest/Sedona/img/pattrenlight.jpg");
+	background-repeat: repeat;
+	background-position: 0 0;
+
+}
+
+@keyframes popupanimation{
+	0%{transform: translateY(-2000px);}
+	70%{transform: translateY(30px);)}
+	90%{transform: (-10px);}
+	100%{transform: translateY(0);}
+
+}
+.serch-house{
+	display: none;
+}
+
+.margin-button-serch{
+	margin-left: 320px;
+}
+
+.serch-house-active{
+	display: block;
+	animation-name: popupanimation;
+	animation-direction: 0.8s; 
+}
+
+
+.small-logo-Sedona{
+	position: relative;
+	}
+
+.normmap{
+	display: none;
+}
+
+.map-apply{
+	display: block;
+}
